@@ -5,7 +5,7 @@ This repository includes projects across multiple programming languages and tech
 
 ---
 
-## ->Language Tree & Descriptions
+<h1>->Language Tree & Descriptions</h1>
 
 <pre>
 Vrush_Logic_Lab
@@ -54,11 +54,12 @@ Inside each folder, you’ll find organized and commented projects to help with 
 
 ## Let's Connect
 
-- 📷 Instagram (Coding): [@code_with_vrush](https://www.instagram.com/code_with_vrush/)  
-- 🌐 Portfolio: [@code_with_vrush](https://cosmic-stroopwafel-8e1787.netlify.app/)  
+- 🌐 Portfolio: [Vrushang Patel](https://cosmic-stroopwafel-8e1787.netlify.app/)  
 - 🧠 Logic never dies — only evolves.
 
 ---
+
 ![Logic Tree](./image.png)
+
 
 
