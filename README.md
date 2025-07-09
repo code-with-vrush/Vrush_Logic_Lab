@@ -6,10 +6,9 @@ This repository includes projects across multiple programming languages and tech
 ---
 
 ## ->Language Tree & Descriptions
-<h2>📂 Language Tree & Descriptions</h2>
 
 <pre>
-📦 Vrush_Logic_Lab
+Vrush_Logic_Lab
 ├── 1. C
 │   ├── Description: Procedural programming, memory management, basic algorithms.
 │   └── Focus: Logic building, pointers, functions.
@@ -45,7 +44,7 @@ This repository includes projects across multiple programming languages and tech
 
 ---
 
-## 🚀 How to Navigate
+## How to Navigate
 
 Each language is split into folders by difficulty level:
 
@@ -53,14 +52,13 @@ Inside each folder, you’ll find organized and commented projects to help with 
 
 ---
 
-## 🙌 Let's Connect
+## Let's Connect
 
-- 📷 Instagram (Coding): [@code_with_vrush](https://instagram.com/code_with_vrush)  
-- 🌐 Portfolio: _Coming Soon_  
+- 📷 Instagram (Coding): [@code_with_vrush](https://www.instagram.com/code_with_vrush/)  
+- 🌐 Portfolio: [@code_with_vrush](https://cosmic-stroopwafel-8e1787.netlify.app/)  
 - 🧠 Logic never dies — only evolves.
-![Logic Tree](./image.png)
-
 
 ---
+![Logic Tree](./image.png)
 
 
