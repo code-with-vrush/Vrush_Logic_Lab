@@ -58,6 +58,8 @@ Inside each folder, you’ll find organized and commented projects to help with 
 - 📷 Instagram (Coding): [@code_with_vrush](https://instagram.com/code_with_vrush)  
 - 🌐 Portfolio: _Coming Soon_  
 - 🧠 Logic never dies — only evolves.
+![Logic Tree](./image.png)
+
 
 ---
 
