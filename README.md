@@ -8,63 +8,40 @@ This repository includes projects across multiple programming languages and tech
 ## ->Language Tree & Descriptions
 <h2>📂 Language Tree & Descriptions</h2>
 
-<ul>
-  <li>📁 <strong>C</strong>
-    <ul>
-      <li>Procedural programming, memory management, basic algorithms.</li>
-      <li><em>Focus:</em> Logic building, pointers, functions.</li>
-    </ul>
-  </li>
-
-  <li>📁 <strong>C++</strong>
-    <ul>
-      <li>Object-Oriented Programming, STL, data structures.</li>
-      <li><em>Focus:</em> Classes, inheritance, templates, competitive coding.</li>
-    </ul>
-  </li>
-
-  <li>📁 <strong>Python</strong>
-    <ul>
-      <li>Simple scripting to advanced data analysis and automation.</li>
-      <li><em>Focus:</em> Functions, OOP, libraries (NumPy, Pandas, etc.).</li>
-    </ul>
-  </li>
-
-  <li>📁 <strong>Java</strong>
-    <ul>
-      <li>Cross-platform, object-oriented language used in Android apps.</li>
-      <li><em>Focus:</em> Core Java, GUI, file I/O, JDBC, Android basics.</li>
-    </ul>
-  </li>
-
-  <li>📁 <strong>PHP</strong>
-    <ul>
-      <li>Server-side scripting used in web development.</li>
-      <li><em>Focus:</em> Form handling, session management, database operations.</li>
-    </ul>
-  </li>
-
-  <li>📁 <strong>SQL</strong>
-    <ul>
-      <li>Structured Query Language for relational databases.</li>
-      <li><em>Focus:</em> CRUD operations, joins, subqueries, stored procedures.</li>
-    </ul>
-  </li>
-
-  <li>📁 <strong>HTML, CSS, JavaScript (Web Development)</strong>
-    <ul>
-      <li>Front-end web development technologies.</li>
-      <li><em>Focus:</em> Responsive design, interactivity, DOM manipulation.</li>
-    </ul>
-  </li>
-
-  <li>📁 <strong>NoSQL</strong>
-    <ul>
-      <li>Non-relational databases like MongoDB.</li>
-      <li><em>Focus:</em> Collections, documents, CRUD, JSON-based queries.</li>
-    </ul>
-  </li>
-</ul>
+<pre>
+📦 Vrush_Logic_Lab
+├── 1. C
+│   ├── Description: Procedural programming, memory management, basic algorithms.
+│   └── Focus: Logic building, pointers, functions.
+│
+├── 2. C++
+│   ├── Description: Object-Oriented Programming, STL, data structures.
+│   └── Focus: Classes, inheritance, templates, competitive coding.
+│
+├── 3. Python
+│   ├── Description: Simple scripting to advanced data analysis and automation.
+│   └── Focus: Functions, OOP, libraries (NumPy, Pandas, etc.).
+│
+├── 4. Java
+│   ├── Description: Cross-platform, object-oriented language used in Android apps.
+│   └── Focus: Core Java, GUI, file I/O, JDBC, Android basics.
+│
+├── 5. PHP
+│   ├── Description: Server-side scripting used in web development.
+│   └── Focus: Form handling, session management, database operations.
+│
+├── 6. SQL
+│   ├── Description: Structured Query Language for relational databases.
+│   └── Focus: CRUD operations, joins, subqueries, stored procedures.
+│
+├── 7. HTML, CSS, JavaScript (Web Development)
+│   ├── Description: Front-end web development technologies.
+│   └── Focus: Responsive design, interactivity, DOM manipulation.
+│
+└── 8. NoSQL
+    ├── Description: Non-relational databases like MongoDB.
+    └── Focus: Collections, documents, CRUD, JSON-based queries.
+</pre>
 
 ---
 
