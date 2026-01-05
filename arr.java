@@ -1,49 +1,49 @@
 public class arr {
-    public static  int countValidSelections(int[] nums) {
-        int n = nums.length;
-        int curr=0;
+     public static  long maxMatrixSum(int[][] matrix) {
 
-        for (int i = 0; i < n; i++) {
-            if(nums[i]== 0){
-                if(valid_direction(nums, i, -1,n)){
-                curr++;
-                }
+        int[][] num = matrix.clone();
+        int max_sum=Integer.MAX_VALUE;
 
-                if (valid_direction(nums, i, 1, n)) {
-                    curr++;
-                }
-
-            }
-            
-        }
-        
-        return curr;
-    }
-    public static  boolean valid_direction(int[] nums, int start, int dir, int n){
-        int[] arr = nums.clone();
-        
-        int cuur = start;
-        int dirr = dir;
-
-        while(cuur >=0 && cuur < n){
-            if(arr[cuur]==0){
-                cuur+=dirr;
-            }else{
-                arr[cuur]--;
-                dirr=-dirr;
-                cuur+=dirr;
+        for(int i=0;i< num.length;i++){
+        for(int j=1;j<num[i].length;j++){
+            int prv = num[i][j-1];
+            if(prv < 0 && num[i][j] < 0){
+                num[i][j-1]=prv*-1;
+                num[i][j]= num[i][j]*-1;
             }
         }
-
-            for (int x : arr) {
-            if (x != 0) return false;
+       }
+        
+       max_sum=0;
+       for(int i=0;i< num.length;i++){
+        for(int j=0;j<num[i].length;j++){
+          max_sum+=num[i][j];
         }
-        return true;
-    }
 
-    public static void main(String[] args) {
-        int[] num={1,0,2,0,3};
-        System.out.println(countValidSelections(num));
+
+       }
+
+        return max_sum;
+        
+    }
+        public static void main(String[] args) {
+        //int[][] num={{1,-1},{-1,1}};
+        int[][] num={{1,2,3},{1,2,3},{1,2,3}};
+        int max_sum=0;
+       for(int i=0;i< num.length;i++){
+        for(int j=0;j<num[i].length;j++){
+          max_sum+=num[i][j];
+        }
+    }
+        System.out.println(max_sum);
+
+        
+       System.out.println(maxMatrixSum(num));
+
+
+
+
+        
         
     }
 }
